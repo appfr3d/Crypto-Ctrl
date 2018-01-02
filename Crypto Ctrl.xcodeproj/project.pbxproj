@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		796A944B1FFC540800874C83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 796A944A1FFC540800874C83 /* main.m */; };
+		796A944E1FFC540800874C83 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 796A944D1FFC540800874C83 /* AppDelegate.m */; };
+		796A94511FFC540800874C83 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 796A94501FFC540800874C83 /* ViewController.m */; };
+		796A94541FFC540800874C83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 796A94521FFC540800874C83 /* Main.storyboard */; };
+		796A94561FFC540800874C83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 796A94551FFC540800874C83 /* Assets.xcassets */; };
+		796A94591FFC540800874C83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 796A94571FFC540800874C83 /* LaunchScreen.storyboard */; };
+		796A94641FFC540800874C83 /* Crypto_CtrlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 796A94631FFC540800874C83 /* Crypto_CtrlTests.m */; };
+		796A946F1FFC540800874C83 /* Crypto_CtrlUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 796A946E1FFC540800874C83 /* Crypto_CtrlUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		796A94601FFC540800874C83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 796A943E1FFC540800874C83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 796A94451FFC540800874C83;
+			remoteInfo = "Crypto Ctrl";
+		};
+		796A946B1FFC540800874C83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 796A943E1FFC540800874C83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 796A94451FFC540800874C83;
+			remoteInfo = "Crypto Ctrl";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		796A94461FFC540800874C83 /* Crypto Ctrl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crypto Ctrl.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		796A944A1FFC540800874C83 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		796A944C1FFC540800874C83 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		796A944D1FFC540800874C83 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		796A944F1FFC540800874C83 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		796A94501FFC540800874C83 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		796A94531FFC540800874C83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		796A94551FFC540800874C83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		796A94581FFC540800874C83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		796A945A1FFC540800874C83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		796A945F1FFC540800874C83 /* Crypto CtrlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Crypto CtrlTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		796A94631FFC540800874C83 /* Crypto_CtrlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Crypto_CtrlTests.m; sourceTree = "<group>"; };
+		796A94651FFC540800874C83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		796A946A1FFC540800874C83 /* Crypto CtrlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Crypto CtrlUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		796A946E1FFC540800874C83 /* Crypto_CtrlUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Crypto_CtrlUITests.m; sourceTree = "<group>"; };
+		796A94701FFC540800874C83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		796A94431FFC540800874C83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		796A945C1FFC540800874C83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		796A94671FFC540800874C83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		796A943D1FFC540800874C83 = {
+			isa = PBXGroup;
+			children = (
+				796A94481FFC540800874C83 /* Crypto Ctrl */,
+				796A94621FFC540800874C83 /* Crypto CtrlTests */,
+				796A946D1FFC540800874C83 /* Crypto CtrlUITests */,
+				796A94471FFC540800874C83 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		796A94471FFC540800874C83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				796A94461FFC540800874C83 /* Crypto Ctrl.app */,
+				796A945F1FFC540800874C83 /* Crypto CtrlTests.xctest */,
+				796A946A1FFC540800874C83 /* Crypto CtrlUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		796A94481FFC540800874C83 /* Crypto Ctrl */ = {
+			isa = PBXGroup;
+			children = (
+				796A944C1FFC540800874C83 /* AppDelegate.h */,
+				796A944D1FFC540800874C83 /* AppDelegate.m */,
+				796A944F1FFC540800874C83 /* ViewController.h */,
+				796A94501FFC540800874C83 /* ViewController.m */,
+				796A94521FFC540800874C83 /* Main.storyboard */,
+				796A94551FFC540800874C83 /* Assets.xcassets */,
+				796A94571FFC540800874C83 /* LaunchScreen.storyboard */,
+				796A945A1FFC540800874C83 /* Info.plist */,
+				796A94491FFC540800874C83 /* Supporting Files */,
+			);
+			path = "Crypto Ctrl";
+			sourceTree = "<group>";
+		};
+		796A94491FFC540800874C83 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				796A944A1FFC540800874C83 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		796A94621FFC540800874C83 /* Crypto CtrlTests */ = {
+			isa = PBXGroup;
+			children = (
+				796A94631FFC540800874C83 /* Crypto_CtrlTests.m */,
+				796A94651FFC540800874C83 /* Info.plist */,
+			);
+			path = "Crypto CtrlTests";
+			sourceTree = "<group>";
+		};
+		796A946D1FFC540800874C83 /* Crypto CtrlUITests */ = {
+			isa = PBXGroup;
+			children = (
+				796A946E1FFC540800874C83 /* Crypto_CtrlUITests.m */,
+				796A94701FFC540800874C83 /* Info.plist */,
+			);
+			path = "Crypto CtrlUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		796A94451FFC540800874C83 /* Crypto Ctrl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 796A94731FFC540800874C83 /* Build configuration list for PBXNativeTarget "Crypto Ctrl" */;
+			buildPhases = (
+				796A94421FFC540800874C83 /* Sources */,
+				796A94431FFC540800874C83 /* Frameworks */,
+				796A94441FFC540800874C83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Crypto Ctrl";
+			productName = "Crypto Ctrl";
+			productReference = 796A94461FFC540800874C83 /* Crypto Ctrl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		796A945E1FFC540800874C83 /* Crypto CtrlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 796A94761FFC540800874C83 /* Build configuration list for PBXNativeTarget "Crypto CtrlTests" */;
+			buildPhases = (
+				796A945B1FFC540800874C83 /* Sources */,
+				796A945C1FFC540800874C83 /* Frameworks */,
+				796A945D1FFC540800874C83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				796A94611FFC540800874C83 /* PBXTargetDependency */,
+			);
+			name = "Crypto CtrlTests";
+			productName = "Crypto CtrlTests";
+			productReference = 796A945F1FFC540800874C83 /* Crypto CtrlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		796A94691FFC540800874C83 /* Crypto CtrlUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 796A94791FFC540800874C83 /* Build configuration list for PBXNativeTarget "Crypto CtrlUITests" */;
+			buildPhases = (
+				796A94661FFC540800874C83 /* Sources */,
+				796A94671FFC540800874C83 /* Frameworks */,
+				796A94681FFC540800874C83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				796A946C1FFC540800874C83 /* PBXTargetDependency */,
+			);
+			name = "Crypto CtrlUITests";
+			productName = "Crypto CtrlUITests";
+			productReference = 796A946A1FFC540800874C83 /* Crypto CtrlUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		796A943E1FFC540800874C83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Alfred Lieth Årøe";
+				TargetAttributes = {
+					796A94451FFC540800874C83 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = YTBFU9LVSY;
+						ProvisioningStyle = Automatic;
+					};
+					796A945E1FFC540800874C83 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = YTBFU9LVSY;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 796A94451FFC540800874C83;
+					};
+					796A94691FFC540800874C83 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = YTBFU9LVSY;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 796A94451FFC540800874C83;
+					};
+				};
+			};
+			buildConfigurationList = 796A94411FFC540800874C83 /* Build configuration list for PBXProject "Crypto Ctrl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 796A943D1FFC540800874C83;
+			productRefGroup = 796A94471FFC540800874C83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				796A94451FFC540800874C83 /* Crypto Ctrl */,
+				796A945E1FFC540800874C83 /* Crypto CtrlTests */,
+				796A94691FFC540800874C83 /* Crypto CtrlUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		796A94441FFC540800874C83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				796A94591FFC540800874C83 /* LaunchScreen.storyboard in Resources */,
+				796A94561FFC540800874C83 /* Assets.xcassets in Resources */,
+				796A94541FFC540800874C83 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		796A945D1FFC540800874C83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		796A94681FFC540800874C83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		796A94421FFC540800874C83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				796A94511FFC540800874C83 /* ViewController.m in Sources */,
+				796A944E1FFC540800874C83 /* AppDelegate.m in Sources */,
+				796A944B1FFC540800874C83 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		796A945B1FFC540800874C83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				796A94641FFC540800874C83 /* Crypto_CtrlTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		796A94661FFC540800874C83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				796A946F1FFC540800874C83 /* Crypto_CtrlUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		796A94611FFC540800874C83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 796A94451FFC540800874C83 /* Crypto Ctrl */;
+			targetProxy = 796A94601FFC540800874C83 /* PBXContainerItemProxy */;
+		};
+		796A946C1FFC540800874C83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 796A94451FFC540800874C83 /* Crypto Ctrl */;
+			targetProxy = 796A946B1FFC540800874C83 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		796A94521FFC540800874C83 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				796A94531FFC540800874C83 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		796A94571FFC540800874C83 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				796A94581FFC540800874C83 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		796A94711FFC540800874C83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		796A94721FFC540800874C83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		796A94741FFC540800874C83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YTBFU9LVSY;
+				INFOPLIST_FILE = "Crypto Ctrl/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "alfredla.Crypto-Ctrl";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		796A94751FFC540800874C83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YTBFU9LVSY;
+				INFOPLIST_FILE = "Crypto Ctrl/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "alfredla.Crypto-Ctrl";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		796A94771FFC540800874C83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = YTBFU9LVSY;
+				INFOPLIST_FILE = "Crypto CtrlTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "alfredla.Crypto-CtrlTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Crypto Ctrl.app/Crypto Ctrl";
+			};
+			name = Debug;
+		};
+		796A94781FFC540800874C83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = YTBFU9LVSY;
+				INFOPLIST_FILE = "Crypto CtrlTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "alfredla.Crypto-CtrlTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Crypto Ctrl.app/Crypto Ctrl";
+			};
+			name = Release;
+		};
+		796A947A1FFC540800874C83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = YTBFU9LVSY;
+				INFOPLIST_FILE = "Crypto CtrlUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "alfredla.Crypto-CtrlUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Crypto Ctrl";
+			};
+			name = Debug;
+		};
+		796A947B1FFC540800874C83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = YTBFU9LVSY;
+				INFOPLIST_FILE = "Crypto CtrlUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "alfredla.Crypto-CtrlUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Crypto Ctrl";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		796A94411FFC540800874C83 /* Build configuration list for PBXProject "Crypto Ctrl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				796A94711FFC540800874C83 /* Debug */,
+				796A94721FFC540800874C83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		796A94731FFC540800874C83 /* Build configuration list for PBXNativeTarget "Crypto Ctrl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				796A94741FFC540800874C83 /* Debug */,
+				796A94751FFC540800874C83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		796A94761FFC540800874C83 /* Build configuration list for PBXNativeTarget "Crypto CtrlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				796A94771FFC540800874C83 /* Debug */,
+				796A94781FFC540800874C83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		796A94791FFC540800874C83 /* Build configuration list for PBXNativeTarget "Crypto CtrlUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				796A947A1FFC540800874C83 /* Debug */,
+				796A947B1FFC540800874C83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 796A943E1FFC540800874C83 /* Project object */;
+}
