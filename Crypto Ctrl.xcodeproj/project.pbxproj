@@ -9,12 +9,24 @@
 /* Begin PBXBuildFile section */
 		796A944B1FFC540800874C83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 796A944A1FFC540800874C83 /* main.m */; };
 		796A944E1FFC540800874C83 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 796A944D1FFC540800874C83 /* AppDelegate.m */; };
-		796A94511FFC540800874C83 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 796A94501FFC540800874C83 /* ViewController.m */; };
 		796A94541FFC540800874C83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 796A94521FFC540800874C83 /* Main.storyboard */; };
 		796A94561FFC540800874C83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 796A94551FFC540800874C83 /* Assets.xcassets */; };
 		796A94591FFC540800874C83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 796A94571FFC540800874C83 /* LaunchScreen.storyboard */; };
 		796A94641FFC540800874C83 /* Crypto_CtrlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 796A94631FFC540800874C83 /* Crypto_CtrlTests.m */; };
 		796A946F1FFC540800874C83 /* Crypto_CtrlUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 796A946E1FFC540800874C83 /* Crypto_CtrlUITests.m */; };
+		796A94811FFC570400874C83 /* CryptoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 796A94801FFC570400874C83 /* CryptoTableViewCell.m */; };
+		796A94841FFC623400874C83 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 796A94831FFC623400874C83 /* TableViewController.m */; };
+		796A94871FFC723600874C83 /* CryptoObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 796A94861FFC723600874C83 /* CryptoObject.m */; };
+		796A948F1FFD045600874C83 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 796A948E1FFD045600874C83 /* NotificationCenter.framework */; };
+		796A94931FFD045600874C83 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 796A94921FFD045600874C83 /* TodayViewController.m */; };
+		796A94961FFD045600874C83 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 796A94941FFD045600874C83 /* MainInterface.storyboard */; };
+		796A949A1FFD045600874C83 /* Crypto Ctrl Widget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 796A948C1FFD045600874C83 /* Crypto Ctrl Widget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		796A94A11FFD0DED00874C83 /* WidgetTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 796A94A01FFD0DED00874C83 /* WidgetTableViewCell.m */; };
+		796A94A21FFD1EA500874C83 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 796A944D1FFC540800874C83 /* AppDelegate.m */; };
+		796A94A41FFD1EB200874C83 /* CryptoObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 796A94861FFC723600874C83 /* CryptoObject.m */; };
+		796A94B31FFD2B0D00874C83 /* CryptoWidgetObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 796A94B21FFD2B0D00874C83 /* CryptoWidgetObject.m */; };
+		79D554402045C09B0027908C /* cryptoImageData.json in Resources */ = {isa = PBXBuildFile; fileRef = 79D5543F2045C09B0027908C /* cryptoImageData.json */; };
+		79D554422045D0800027908C /* cryptoImageData.json in Resources */ = {isa = PBXBuildFile; fileRef = 79D554412045D07F0027908C /* cryptoImageData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,15 +44,34 @@
 			remoteGlobalIDString = 796A94451FFC540800874C83;
 			remoteInfo = "Crypto Ctrl";
 		};
+		796A94981FFD045600874C83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 796A943E1FFC540800874C83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 796A948B1FFD045600874C83;
+			remoteInfo = "Crypto Ctrl Widget";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		796A949E1FFD045600874C83 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				796A949A1FFD045600874C83 /* Crypto Ctrl Widget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		796A94461FFC540800874C83 /* Crypto Ctrl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crypto Ctrl.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		796A944A1FFC540800874C83 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		796A944C1FFC540800874C83 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		796A944D1FFC540800874C83 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		796A944F1FFC540800874C83 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		796A94501FFC540800874C83 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		796A94531FFC540800874C83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		796A94551FFC540800874C83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		796A94581FFC540800874C83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +82,26 @@
 		796A946A1FFC540800874C83 /* Crypto CtrlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Crypto CtrlUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		796A946E1FFC540800874C83 /* Crypto_CtrlUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Crypto_CtrlUITests.m; sourceTree = "<group>"; };
 		796A94701FFC540800874C83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		796A947F1FFC570400874C83 /* CryptoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CryptoTableViewCell.h; sourceTree = "<group>"; };
+		796A94801FFC570400874C83 /* CryptoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CryptoTableViewCell.m; sourceTree = "<group>"; };
+		796A94821FFC623400874C83 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		796A94831FFC623400874C83 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		796A94851FFC723600874C83 /* CryptoObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CryptoObject.h; sourceTree = "<group>"; };
+		796A94861FFC723600874C83 /* CryptoObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CryptoObject.m; sourceTree = "<group>"; };
+		796A948C1FFD045600874C83 /* Crypto Ctrl Widget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Crypto Ctrl Widget.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		796A948E1FFD045600874C83 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		796A94911FFD045600874C83 /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
+		796A94921FFD045600874C83 /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
+		796A94951FFD045600874C83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		796A94971FFD045600874C83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		796A949F1FFD0DED00874C83 /* WidgetTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WidgetTableViewCell.h; sourceTree = "<group>"; };
+		796A94A01FFD0DED00874C83 /* WidgetTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WidgetTableViewCell.m; sourceTree = "<group>"; };
+		796A94B11FFD2B0D00874C83 /* CryptoWidgetObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CryptoWidgetObject.h; sourceTree = "<group>"; };
+		796A94B21FFD2B0D00874C83 /* CryptoWidgetObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CryptoWidgetObject.m; sourceTree = "<group>"; };
+		796A94B41FFD3B6F00874C83 /* Crypto Ctrl.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Crypto Ctrl.entitlements"; sourceTree = "<group>"; };
+		796A94B51FFD3BB600874C83 /* Crypto Ctrl Widget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Crypto Ctrl Widget.entitlements"; sourceTree = "<group>"; };
+		79D5543F2045C09B0027908C /* cryptoImageData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cryptoImageData.json; sourceTree = SOURCE_ROOT; };
+		79D554412045D07F0027908C /* cryptoImageData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cryptoImageData.json; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +126,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		796A94891FFD045600874C83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				796A948F1FFD045600874C83 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -84,6 +143,8 @@
 				796A94481FFC540800874C83 /* Crypto Ctrl */,
 				796A94621FFC540800874C83 /* Crypto CtrlTests */,
 				796A946D1FFC540800874C83 /* Crypto CtrlUITests */,
+				796A94901FFD045600874C83 /* Crypto Ctrl Widget */,
+				796A948D1FFD045600874C83 /* Frameworks */,
 				796A94471FFC540800874C83 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,6 +155,7 @@
 				796A94461FFC540800874C83 /* Crypto Ctrl.app */,
 				796A945F1FFC540800874C83 /* Crypto CtrlTests.xctest */,
 				796A946A1FFC540800874C83 /* Crypto CtrlUITests.xctest */,
+				796A948C1FFD045600874C83 /* Crypto Ctrl Widget.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,10 +163,15 @@
 		796A94481FFC540800874C83 /* Crypto Ctrl */ = {
 			isa = PBXGroup;
 			children = (
+				796A94B41FFD3B6F00874C83 /* Crypto Ctrl.entitlements */,
 				796A944C1FFC540800874C83 /* AppDelegate.h */,
 				796A944D1FFC540800874C83 /* AppDelegate.m */,
-				796A944F1FFC540800874C83 /* ViewController.h */,
-				796A94501FFC540800874C83 /* ViewController.m */,
+				796A94821FFC623400874C83 /* TableViewController.h */,
+				796A94831FFC623400874C83 /* TableViewController.m */,
+				796A947F1FFC570400874C83 /* CryptoTableViewCell.h */,
+				796A94801FFC570400874C83 /* CryptoTableViewCell.m */,
+				796A94851FFC723600874C83 /* CryptoObject.h */,
+				796A94861FFC723600874C83 /* CryptoObject.m */,
 				796A94521FFC540800874C83 /* Main.storyboard */,
 				796A94551FFC540800874C83 /* Assets.xcassets */,
 				796A94571FFC540800874C83 /* LaunchScreen.storyboard */,
@@ -117,6 +184,7 @@
 		796A94491FFC540800874C83 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				79D5543F2045C09B0027908C /* cryptoImageData.json */,
 				796A944A1FFC540800874C83 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -140,6 +208,31 @@
 			path = "Crypto CtrlUITests";
 			sourceTree = "<group>";
 		};
+		796A948D1FFD045600874C83 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				796A948E1FFD045600874C83 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		796A94901FFD045600874C83 /* Crypto Ctrl Widget */ = {
+			isa = PBXGroup;
+			children = (
+				79D554412045D07F0027908C /* cryptoImageData.json */,
+				796A94B51FFD3BB600874C83 /* Crypto Ctrl Widget.entitlements */,
+				796A94911FFD045600874C83 /* TodayViewController.h */,
+				796A94921FFD045600874C83 /* TodayViewController.m */,
+				796A94B11FFD2B0D00874C83 /* CryptoWidgetObject.h */,
+				796A94B21FFD2B0D00874C83 /* CryptoWidgetObject.m */,
+				796A949F1FFD0DED00874C83 /* WidgetTableViewCell.h */,
+				796A94A01FFD0DED00874C83 /* WidgetTableViewCell.m */,
+				796A94941FFD045600874C83 /* MainInterface.storyboard */,
+				796A94971FFD045600874C83 /* Info.plist */,
+			);
+			path = "Crypto Ctrl Widget";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,10 +243,12 @@
 				796A94421FFC540800874C83 /* Sources */,
 				796A94431FFC540800874C83 /* Frameworks */,
 				796A94441FFC540800874C83 /* Resources */,
+				796A949E1FFD045600874C83 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				796A94991FFD045600874C83 /* PBXTargetDependency */,
 			);
 			name = "Crypto Ctrl";
 			productName = "Crypto Ctrl";
@@ -196,6 +291,23 @@
 			productReference = 796A946A1FFC540800874C83 /* Crypto CtrlUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		796A948B1FFD045600874C83 /* Crypto Ctrl Widget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 796A949B1FFD045600874C83 /* Build configuration list for PBXNativeTarget "Crypto Ctrl Widget" */;
+			buildPhases = (
+				796A94881FFD045600874C83 /* Sources */,
+				796A94891FFD045600874C83 /* Frameworks */,
+				796A948A1FFD045600874C83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Crypto Ctrl Widget";
+			productName = "Crypto Ctrl Widget";
+			productReference = 796A948C1FFD045600874C83 /* Crypto Ctrl Widget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -209,6 +321,11 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = YTBFU9LVSY;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					796A945E1FFC540800874C83 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -221,6 +338,16 @@
 						DevelopmentTeam = YTBFU9LVSY;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 796A94451FFC540800874C83;
+					};
+					796A948B1FFD045600874C83 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = YTBFU9LVSY;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -240,6 +367,7 @@
 				796A94451FFC540800874C83 /* Crypto Ctrl */,
 				796A945E1FFC540800874C83 /* Crypto CtrlTests */,
 				796A94691FFC540800874C83 /* Crypto CtrlUITests */,
+				796A948B1FFD045600874C83 /* Crypto Ctrl Widget */,
 			);
 		};
 /* End PBXProject section */
@@ -251,6 +379,7 @@
 			files = (
 				796A94591FFC540800874C83 /* LaunchScreen.storyboard in Resources */,
 				796A94561FFC540800874C83 /* Assets.xcassets in Resources */,
+				79D554402045C09B0027908C /* cryptoImageData.json in Resources */,
 				796A94541FFC540800874C83 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +398,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		796A948A1FFD045600874C83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79D554422045D0800027908C /* cryptoImageData.json in Resources */,
+				796A94961FFD045600874C83 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -276,8 +414,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				796A94511FFC540800874C83 /* ViewController.m in Sources */,
+				796A94811FFC570400874C83 /* CryptoTableViewCell.m in Sources */,
+				796A94871FFC723600874C83 /* CryptoObject.m in Sources */,
 				796A944E1FFC540800874C83 /* AppDelegate.m in Sources */,
+				796A94841FFC623400874C83 /* TableViewController.m in Sources */,
 				796A944B1FFC540800874C83 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,6 +438,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		796A94881FFD045600874C83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				796A94A41FFD1EB200874C83 /* CryptoObject.m in Sources */,
+				796A94B31FFD2B0D00874C83 /* CryptoWidgetObject.m in Sources */,
+				796A94A21FFD1EA500874C83 /* AppDelegate.m in Sources */,
+				796A94931FFD045600874C83 /* TodayViewController.m in Sources */,
+				796A94A11FFD0DED00874C83 /* WidgetTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -310,6 +462,11 @@
 			isa = PBXTargetDependency;
 			target = 796A94451FFC540800874C83 /* Crypto Ctrl */;
 			targetProxy = 796A946B1FFC540800874C83 /* PBXContainerItemProxy */;
+		};
+		796A94991FFD045600874C83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 796A948B1FFD045600874C83 /* Crypto Ctrl Widget */;
+			targetProxy = 796A94981FFD045600874C83 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -328,6 +485,14 @@
 				796A94581FFC540800874C83 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		796A94941FFD045600874C83 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				796A94951FFD045600874C83 /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -427,6 +592,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Crypto Ctrl/Crypto Ctrl.entitlements";
 				DEVELOPMENT_TEAM = YTBFU9LVSY;
 				INFOPLIST_FILE = "Crypto Ctrl/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -439,6 +605,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Crypto Ctrl/Crypto Ctrl.entitlements";
 				DEVELOPMENT_TEAM = YTBFU9LVSY;
 				INFOPLIST_FILE = "Crypto Ctrl/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -497,6 +664,32 @@
 			};
 			name = Release;
 		};
+		796A949C1FFD045600874C83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Crypto Ctrl Widget/Crypto Ctrl Widget.entitlements";
+				DEVELOPMENT_TEAM = YTBFU9LVSY;
+				INFOPLIST_FILE = "Crypto Ctrl Widget/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "alfredla.Crypto-Ctrl.Crypto-Ctrl-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		796A949D1FFD045600874C83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Crypto Ctrl Widget/Crypto Ctrl Widget.entitlements";
+				DEVELOPMENT_TEAM = YTBFU9LVSY;
+				INFOPLIST_FILE = "Crypto Ctrl Widget/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "alfredla.Crypto-Ctrl.Crypto-Ctrl-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -516,6 +709,7 @@
 				796A94751FFC540800874C83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		796A94761FFC540800874C83 /* Build configuration list for PBXNativeTarget "Crypto CtrlTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +718,7 @@
 				796A94781FFC540800874C83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		796A94791FFC540800874C83 /* Build configuration list for PBXNativeTarget "Crypto CtrlUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +727,16 @@
 				796A947B1FFC540800874C83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		796A949B1FFD045600874C83 /* Build configuration list for PBXNativeTarget "Crypto Ctrl Widget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				796A949C1FFD045600874C83 /* Debug */,
+				796A949D1FFD045600874C83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

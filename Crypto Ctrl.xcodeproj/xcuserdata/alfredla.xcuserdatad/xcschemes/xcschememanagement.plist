@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Crypto Ctrl Widget.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>Crypto Ctrl.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -23,6 +28,11 @@
 			<true/>
 		</dict>
 		<key>796A94691FFC540800874C83</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>796A948B1FFD045600874C83</key>
 		<dict>
 			<key>primary</key>
 			<true/>
