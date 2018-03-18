@@ -29,8 +29,6 @@ for i in range(1,10):
 	# names = images.get('alt')
 	# links = images.get('src')
 
-
-
 	for img in images:
 		# if str(img).startswith('https://files'):
 		coin = {}

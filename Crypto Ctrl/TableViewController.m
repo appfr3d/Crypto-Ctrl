@@ -147,7 +147,7 @@
 
 - (void)getAndUpdateCurrencyImageWithIndex:(NSInteger)index andId:(NSString*)imgID {
     // Link found in sourcecode at coinmarketcap.com
-    NSString *URLString = [NSString stringWithFormat:@"https://files.coinmarketcap.com/static/img/coins/32x32/%@.png", imgID];
+    NSString *URLString = [NSString stringWithFormat:@"https://s2.coinmarketcap.com/static/img/coins/32x32/%@.png", imgID];
     NSURL *URL = [NSURL URLWithString:URLString];
     [AppDelegate downloadDataFromURL:URL withCompletionHandler:^(NSData *data){
         if (data != nil) {
